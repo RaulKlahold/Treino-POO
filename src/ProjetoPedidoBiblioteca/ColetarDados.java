@@ -1,10 +1,8 @@
 package ProjetoPedidoBiblioteca;
 
-import com.sun.org.apache.xpath.internal.objects.XString;
-
 public class ColetarDados {
     private String nome;
-    private string telefone;
+    private String telefone;
     private String NomeLivro;
 
 
@@ -17,11 +15,11 @@ public class ColetarDados {
         this.nome = nome;
     }
 
-    public string getTelefone() {
+    public String getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(string telefone) {
+    public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
 
