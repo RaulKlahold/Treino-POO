@@ -20,6 +20,12 @@ public class Main {
         dados.setNomeLivro(nomeLivro);
         scan.close();
 
+        System.out.print("\n----- Ficha tecnica -----");
+        System.out.print("\n Olá "+dados.getNome());
+        System.out.print("\n Seu numero de telefone para contato é: "+dados.getTelefone());
+        System.out.print("\n você está levando o livro: "+dados.getNomeLivro());
+
+
 
     }
 }
