@@ -1,7 +1,13 @@
 package CalculadoraS;
 
 public class FunctionAction {
-    public static void function(ColetarDados ColetarDados){
+    public static double function(ColetarDados ColetarDados){
+
+        double numeroUm = ColetarDados.getNum1();
+        double numeroDois = ColetarDados.getNum2();
+
+        return numeroUm + numeroDois;
+
 
 
     }
