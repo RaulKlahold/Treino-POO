@@ -17,7 +17,7 @@ public class Main {
 
 
      double resultado = FunctionAction.function(var);
-     System.out.print("\nO resultado dessa soma deu: "+resultado);
+     System.out.print("\nO resultado é: "+resultado);
 
 
 
