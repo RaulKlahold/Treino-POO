@@ -23,7 +23,7 @@ public class Main {
         System.out.print("\n----- Ficha tecnica -----");
         System.out.print("\n Olá "+dados.getNome()+" tudo bem?");
         System.out.print("\n Seu Numero de telefone para contato é: "+dados.getTelefone());
-        System.out.print("\n você está levando o livro: "+dados.getNomeLivro());
+        System.out.print("\n Você está levando o livro: "+dados.getNomeLivro());
 
 
 
