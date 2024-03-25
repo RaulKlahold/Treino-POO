@@ -7,11 +7,11 @@ public class Main {
      ColetarDados var = new ColetarDados();
      Scanner scan = new Scanner(System.in);
 
-     System.out.print("\nDigite o primeiro numero: ");
+     System.out.print("\nDigite o Primeiro numero: ");
      double primeiroNum = scan.nextDouble();
      var.setNum1(primeiroNum);
 
-     System.out.print("\nDigite o segundo numero: ");
+     System.out.print("\nDigite o Segundo numero: ");
      double segundoNum = scan.nextDouble();
      var.setNum2(segundoNum);
 
