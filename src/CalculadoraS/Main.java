@@ -7,17 +7,17 @@ public class Main {
      ColetarDados var = new ColetarDados();
      Scanner scan = new Scanner(System.in);
 
-     System.out.print("\nDigite o primeiro numero: ");
+     System.out.print("\nDigite o Primeiro numero: ");
      double primeiroNum = scan.nextDouble();
      var.setNum1(primeiroNum);
 
-     System.out.print("\nDigite os segundo numero: ");
+     System.out.print("\nDigite o Segundo numero: ");
      double segundoNum = scan.nextDouble();
      var.setNum2(segundoNum);
 
 
      double resultado = FunctionAction.function(var);
-     System.out.print("\nO resultado dessa soma deu: "+resultado);
+     System.out.print("\nO resultado é: "+resultado);
 
 
 
