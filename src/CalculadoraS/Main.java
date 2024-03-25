@@ -11,7 +11,7 @@ public class Main {
      double primeiroNum = scan.nextDouble();
      var.setNum1(primeiroNum);
 
-     System.out.print("\nDigite os segundo numero: ");
+     System.out.print("\nDigite o segundo numero: ");
      double segundoNum = scan.nextDouble();
      var.setNum2(segundoNum);
 
