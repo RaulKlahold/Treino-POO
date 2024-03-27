@@ -6,7 +6,7 @@ public class FunctionAction {
         double numeroUm = ColetarDados.getNum1();
         double numeroDois = ColetarDados.getNum2();
 
-        return numeroUm + numeroDois;
+        return (((numeroUm - numeroDois) / numeroUm) * 100);
 
 
 
