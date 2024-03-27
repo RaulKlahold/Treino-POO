@@ -2,7 +2,7 @@ package CalculadoraS;
 
 public class Numberexception extends Exception{
     public Numberexception() {
-        super("Só é permitido apenas 1 pedido por vez!");
+        super("O numero tem que ser maior que 0");
     }
 
     public Numberexception(String message) {
