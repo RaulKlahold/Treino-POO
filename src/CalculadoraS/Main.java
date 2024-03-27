@@ -15,10 +15,13 @@ public class Main {
      double segundoNum = scan.nextDouble();
      var.setNum2(segundoNum);
 
-
-     double resultado = FunctionAction.function(var);
-     System.out.print("\nO resultado é: "+resultado);
-
+     try {
+      double resultado = FunctionAction.function(var);
+      System.out.print("\nO resultado é: " + resultado);
+     }
+     catch (Numberexception n){
+      System.out.print(n.getMessage());
+     }
 
 
 
