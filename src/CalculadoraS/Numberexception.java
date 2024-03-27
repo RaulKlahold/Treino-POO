@@ -5,7 +5,5 @@ public class Numberexception extends Exception{
         super("O numero tem que ser maior que 0");
     }
 
-    public Numberexception(String message) {
-        super(message);
-    }
+
 }

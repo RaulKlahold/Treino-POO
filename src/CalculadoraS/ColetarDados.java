@@ -5,7 +5,7 @@ public class ColetarDados {
     private double num1;
     private double num2;
 
-    FunctionAction function;
+
 
     public ColetarDados() {
     }

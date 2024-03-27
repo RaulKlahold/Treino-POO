@@ -9,9 +9,7 @@ public class FunctionAction {
         if (numeroUm > 0 && numeroDois > 0) {
             return (((numeroUm - numeroDois) / numeroDois) * 100);
         }
-        else {
-            throw new Numberexception();
-        }
+        else throw new Numberexception();
 
 
     }
