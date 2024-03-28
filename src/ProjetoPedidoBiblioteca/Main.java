@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) throws Exceptionname{
       ColetarDados dados = new ColetarDados();
         Scanner scan = new Scanner(System.in);
-
         System.out.print("Digite Seu nome: ");
         String nome = scan.next();
         dados.setNome(nome);
