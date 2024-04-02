@@ -6,7 +6,7 @@ Bem-vindo ao Repositório de Treino de Java! Este é um espaço dedicado para ar
 
 O repositório está organizado da seguinte forma:
 
-- **projetos**: Inclui projetos diversos, proporcionando uma experiência mais abrangente no desenvolvimento Java e em suas mecânicas proprias de execução.
+- **projetos**: Inclui projetos diversos, preferencialmente voltados para orientação a objetos e suas funcionalidades.
 
   ## Como Contribuir
 
