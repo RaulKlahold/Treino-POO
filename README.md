@@ -12,7 +12,7 @@ O repositório está organizado da seguinte forma:
 
 Se você quiser contribuir para este repositório, sinta-se à vontade para:
 
-1. **Adicionar Exercícios ou Projetos:** Se você desenvolveu exercícios interessantes ou projetos úteis para aprendizado em Java, adicione-os nas pastas apropriadas.
+1. **Adicionar Exercícios ou Projetos:** Se você desenvolveu exercícios interessantes ou projetos úteis para aprendizado em Java (POO), adicione-os nas pastas apropriadas.
 
 2. **Corrigir Bugs ou Melhorar Códigos:** Se encontrar algum bug nos exercícios existentes ou tiver sugestões de melhorias, abra uma issue ou envie um pull request.
 
