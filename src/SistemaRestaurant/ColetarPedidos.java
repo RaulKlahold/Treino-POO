@@ -4,8 +4,6 @@ public class ColetarPedidos {
 
        public void Pedido(Coletarinfos Coletarinfos){
 
-           String Nome = Coletarinfos.getNome();
-           String CPF = Coletarinfos.getCpf();
            Integer NumeroPedido = Coletarinfos.getPedido();
 
 
