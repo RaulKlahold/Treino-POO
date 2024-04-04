@@ -2,7 +2,7 @@ package SistemaRestaurant;
 
 public class ColetarPedidos {
 
-       public static String Pedido(Coletarinfos Coletarinfos){
+       public void Pedido(Coletarinfos Coletarinfos){
 
            String Nome = Coletarinfos.getNome();
            String CPF = Coletarinfos.getCpf();
@@ -10,8 +10,24 @@ public class ColetarPedidos {
 
 
 
+           if (NumeroPedido == 1){
+
+                System.out.print("Pedido 1: Dog duplo com calabresa e bacon + Coca Lata");
+
+            } else if (NumeroPedido == 2) {
+
+               System.out.print("Xfrango Catupiry + Coca");
 
 
-           return null;
+           } else if (NumeroPedido == 3) {
+
+               System.out.print("Xbacon + Coca lata");
+
+           } else {
+
+               System.out.print("Pedido indisponivel no cardapio");
+           }
+
+
        }
 }
