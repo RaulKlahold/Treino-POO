@@ -5,7 +5,7 @@ public class Coletarinfos {
     private String Cpf;
     private Integer pedido;
 
-    public static ColetarPedidos pedidos;
+
 
     public Coletarinfos() {
     }
