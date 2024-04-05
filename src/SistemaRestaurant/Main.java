@@ -9,7 +9,12 @@ public class Main {
 
        System.out.print("Digite seu nome: ");
        String name = scan.nextLine();
-       infos.getNome(name);
+       infos.setNome(name);
+
+       System.out.print("Digite seu CPF: ");
+       String Cpf = scan.nextLine();
+       infos.setCpf(Cpf);
+
 
 
 
