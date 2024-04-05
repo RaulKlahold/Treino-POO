@@ -15,8 +15,12 @@ public class Main {
        String Cpf = scan.nextLine();
        infos.setCpf(Cpf);
 
+       System.out.print("Qual o seu pedido?");
+       Integer Pedido = scan.nextInt();
+       infos.setPedido(Pedido);
 
-
+       String ficha = Coletarinfos.pedidos(infos);
+       System.out.print("------- Ficha do Pedido --------");
 
 
 
