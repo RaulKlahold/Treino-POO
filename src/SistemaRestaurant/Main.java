@@ -22,7 +22,7 @@ public class Main {
        String ficha = ColetarPedidos.Pedido(infos);
 
        System.out.print("\n------- Ficha do Pedido --------\n");
-       System.out.print("\n Olá,"+infos.getNome(name)+"Seja bem vindo!");
+       System.out.print("\n Olá,"+infos.getNome()+"Seja bem vindo!");
        System.out.print("\nPortador do CPF: "+infos.getCpf());
        System.out.print("\nSua escolha foi : \n"+ficha);
        System.out.print("\nObrigado pela preferencia! \n");
