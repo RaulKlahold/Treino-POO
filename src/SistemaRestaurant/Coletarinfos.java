@@ -10,7 +10,7 @@ public class Coletarinfos {
     public Coletarinfos() {
     }
 
-    public String getNome() {
+    public String getNome(String name) {
         return Nome;
     }
 

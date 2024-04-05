@@ -7,6 +7,10 @@ public class Main {
        Coletarinfos infos = new Coletarinfos();
        Scanner scan = new Scanner(System.in);
 
+       System.out.print("Digite seu nome: ");
+       String name = scan.nextLine();
+       infos.getNome(name);
+
 
 
 
