@@ -25,7 +25,7 @@ public class Main {
        System.out.print("\n Olá,"+infos.getNome()+"Seja bem vindo!");
        System.out.print("\nUsuario do CPF: "+infos.getCpf());
        System.out.print("\nSua pedido foi : \n"+ficha);
-       System.out.print("\nObrigado pela preferencia! \n");
+       System.out.print("\nObrigado pela preferência! \n");
 
 
 
