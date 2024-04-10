@@ -6,7 +6,7 @@ public class ColetarPedidos {
 
            String NumeroPedido = String.valueOf(Coletarinfos.getPedido());
 
-           String PedidoRetorno = null;
+           String PedidoRetorno;
            if (NumeroPedido.length() == 1) {
                if (NumeroPedido.equals("1")) {
 
