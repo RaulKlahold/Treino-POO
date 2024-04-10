@@ -25,9 +25,7 @@ public class ColetarPedidos {
 
                    PedidoRetorno = "Pedido indisponivel no cardapio";
                }
-           } else {
-               throw new ExceptioNumeroPedido();
-           }
+           } else throw new ExceptioNumeroPedido();
 
 
            return PedidoRetorno;
