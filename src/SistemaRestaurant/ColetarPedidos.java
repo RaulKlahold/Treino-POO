@@ -2,29 +2,30 @@ package SistemaRestaurant;
 
 public class ColetarPedidos {
 
-       public static String Pedido(Coletarinfos Coletarinfos){
+       public static String Pedido(Coletarinfos Coletarinfos) throws ExceptioNumeroPedido {
 
-           Integer NumeroPedido = Coletarinfos.getPedido();
+           String NumeroPedido = String.valueOf(Coletarinfos.getPedido());
+
            String PedidoRetorno;
+           if (NumeroPedido.length() == 1) {
+               if (NumeroPedido.equals("1")) {
+
+                   PedidoRetorno = "Pedido 1: Dog duplo com calabresa e bacon + Coca Lata";
+
+               } else if (NumeroPedido.equals("2")) {
+
+                   PedidoRetorno = "Xfrango Catupiry + Coca";
 
 
-           if (NumeroPedido == 1){
+               } else if (NumeroPedido.equals("3")) {
 
-                PedidoRetorno = "Pedido 1: Dog duplo com calabresa e bacon + Coca Lata";
+                   PedidoRetorno = "Xbacon + Coca lata";
 
-            } else if (NumeroPedido == 2) {
+               } else {
 
-               PedidoRetorno = "Xfrango Catupiry + Coca";
-
-
-           } else if (NumeroPedido == 3) {
-
-               PedidoRetorno ="Xbacon + Coca lata";
-
-           } else {
-
-               PedidoRetorno = "Pedido indisponivel no cardapio";
-           }
+                   PedidoRetorno = "Pedido indisponivel no cardapio";
+               }
+           } else throw new ExceptioNumeroPedido();
 
 
            return PedidoRetorno;
