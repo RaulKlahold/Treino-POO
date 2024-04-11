@@ -36,7 +36,9 @@ public class Main {
          }
        } catch (ExceptioNumeroPedido e){
          System.out.print(e.getMessage());
-       } catch ()
+       } catch (ExceptioName k){
+         System.out.print(k.getMessage());
+       }
 
 
 
