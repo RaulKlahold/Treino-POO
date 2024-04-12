@@ -24,10 +24,10 @@ public class Main {
 
        try {
          String ficha = ColetarPedidos.Pedido(infos);
-         if(infos.getNome().length() < 3 || infos.getCpf().length() != 11) {
+         if(!((infos.getNome().length() < 3)) && infos.getCpf().length() == 11) {
 
            System.out.print("\n------- Ficha do Pedido --------\n");
-           System.out.print("\n Olá," + infos.getNome() + "Seja bem vindo!");
+           System.out.print("\n Olá," + infos.getNome() + "  Seja bem vindo!");
            System.out.print("\nUsuário do CPF: " + infos.getCpf());
            System.out.print("\nSua pedido foi : \n" + ficha);
            System.out.print("\nObrigado pela preferência! \n");
