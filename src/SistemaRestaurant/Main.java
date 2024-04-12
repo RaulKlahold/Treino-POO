@@ -3,7 +3,7 @@ package SistemaRestaurant;
 import java.util.Scanner;
 
 public class Main {
-     public static <e> void main(String[] args)  {
+     public static void main(String[] args)  {
        Coletarinfos infos = new Coletarinfos();
        Scanner scan = new Scanner(System.in);
 
