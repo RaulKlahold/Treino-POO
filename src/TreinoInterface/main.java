@@ -8,7 +8,8 @@ public class main {
         Scanner scan =new Scanner(System.in);
 
          System.out.println("Diga a raça de um cachorro");
-         String cachorro1
+         String cachorro1 = scan.nextLine();
+
 
         
         
