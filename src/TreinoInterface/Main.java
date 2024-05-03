@@ -7,7 +7,7 @@ public class Main {
         Cachorro cachorro = new Cachorro();
         Scanner scan =new Scanner(System.in);
 
-         System.out.println("Digao nome de um cachorro");
+         System.out.println("Diga o nome de um cachorro");
          String cachorro1 = scan.nextLine();
          cachorro.setNome(cachorro1);
 
