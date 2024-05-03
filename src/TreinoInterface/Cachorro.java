@@ -12,8 +12,10 @@ public class Cachorro implements Actions {
     }
 
     @Override
-    public void correr() {
-        System.out.println("O cachorro corre muito");
+    public String correr() {
+        var s = "O cachorro corre muito";
+        return s;
+
 
     }
 }

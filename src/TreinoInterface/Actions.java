@@ -1,5 +1,5 @@
 package TreinoInterface;
 
 public interface Actions {
-    public void correr();
+    public String correr();
 }

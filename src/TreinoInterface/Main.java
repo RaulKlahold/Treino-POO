@@ -2,7 +2,7 @@ package TreinoInterface;
 
 import java.util.Scanner;
 
-public class main {
+public class Main {
     public static void mainClass(String[] args){
         Cachorro cachorro = new Cachorro();
         Scanner scan =new Scanner(System.in);
@@ -11,6 +11,8 @@ public class main {
          String cachorro1 = scan.nextLine();
          cachorro.setNome(cachorro1);
 
+         String resultante = cachorro.correr();
+         System.out.println("O "+cachorro.getNome()+" ele corre?"+resultante);
 
 
         
