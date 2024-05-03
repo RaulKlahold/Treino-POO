@@ -12,7 +12,7 @@ public class Main {
          cachorro.setNome(cachorro1);
 
          String resultante = cachorro.correr();
-         System.out.println("O "+cachorro.getNome()+" ele corre?"+resultante);
+         System.out.println("O "+cachorro.getNome()+" ele corre: "+resultante);
 
 
         
